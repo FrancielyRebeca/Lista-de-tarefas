@@ -1,0 +1,77 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255,252,117);
+    background: radial-gradient(circle, rgba(255,252,117,1) 0%, rgba(255,213,70,1) 18%, rgba(253,104,104,1) 100%);
+    border-style: ridge;
+    border-color: black;
+
+}
+
+.main {
+    border-style: double;
+    border-radius: 15px;
+    background: rgb(255,252,117);
+    background: radial-gradient(circle, rgba(255,252,117,1) 0%, rgba(255,213,70,1) 18%, rgba(253,104,104,1) 100%);
+    padding: 10px;
+}
+
+#titulo {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-left: 31px; 
+    font-size: 50px
+
+}
+
+button{
+    background-color: transparent;
+    border: none;
+
+}
+
+img {
+    height: 35px;
+    width: 32px;
+    
+    border-radius: 10px;
+    
+}
+
+#input-tarefa {
+   width: 400px; 
+   font-size: 25px;
+   border-radius: 5px;
+   border-style: inset;
+   border-color: white;
+   outline: none;
+   float: left;
+}
+
+
+
+hr {
+    margin-top: 45px;
+    border-style: hidden;
+}
+
+.estilo-paragrafo {
+    margin-top: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
